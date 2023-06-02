@@ -1,6 +1,5 @@
-Goal with this app is to automate my workflow and publish it to github so more people can use it
 
-features:
+# what is going to contain?
     - Autologin to used software etc.
     - Opening preset application 
     - launched by shortcut
