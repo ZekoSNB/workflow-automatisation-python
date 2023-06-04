@@ -6,7 +6,7 @@
 # TODO
    - [ ] Create basic funcition that is able to run scripts
    - [ ] Take user argument for the name of the directiory and create new directory in Documents file
-    - [ ] Add README.md file 
+   - [ ] Add README.md file 
    - [ ] Initialize the directory (git init)
    - [ ] add remote and commit "first commit" and push
    - [ ] Open brave (work version) and vscode and spotify
