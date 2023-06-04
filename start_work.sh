@@ -7,6 +7,7 @@ function create () {
 	cd /home/$USER/Documents/$1
 	touch README.md
 	git add -A
+	pwd
 	git init
 
 }
