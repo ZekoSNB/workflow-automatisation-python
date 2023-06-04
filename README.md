@@ -4,8 +4,8 @@
     - launched by shortcut
 
 # TODO
-   - [x] Create basic funcition that is able to run scripts
-   - [x] Take user argument for the name of the directiory and create new directory in Documents file
+   - [ ] Create basic funcition that is able to run scripts
+   - [ ] Take user argument for the name of the directiory and create new directory in Documents file
     - [ ] Add README.md file 
    - [ ] Initialize the directory (git init)
    - [ ] add remote and commit "first commit" and push
