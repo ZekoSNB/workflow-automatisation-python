@@ -16,18 +16,22 @@ reponame = args.name
 username = data["username"]
 password = data["password"]
 
-chromedriver = '/home/zeko/Documents/wawpy/source/chromesource/chromedriver'
 
-driver = webdriver.Chrome(chromedriver)
+def web_run():
+    chromedriver = '/home/zeko/Documents/wawpy/source/chromesource/chromedriver'
 
-driver.get('https://github.com/login')
+    driver = webdriver.Chrome(chromedriver)
 
-driver.find_element(By.XPATH, '//*[@id="login_field"]').send_keys(username)
-driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(password)
-driver.find_element(By.XPATH, '//*[@id="login"]/div[4]/form/div/input[13]').click()
+    driver.get('https://github.com/login')
+    driver.find_element(By.XPATH, '//*[@id="login_field"]').send_keys(username)
+    driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(password)
+    driver.find_element(By.XPATH, '//*[@id="login"]/div[4]/form/div/input[13]').click()
 
-driver.get('https://github.com/new')
+    driver.get('https://github.com/new')
 
-driver.find_element(By.XPATH, '//*[@id="react-aria-2"]').send_keys(reponame)
+    driver.find_element(By.XPATH, '//*[@id="react-aria-2"]').send_keys(reponame)
 
-time.sleep(10)
+    time.sleep(10)
+
+if __name__ == '__main__':
+    web_run()
