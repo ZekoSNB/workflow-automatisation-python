@@ -15,6 +15,7 @@ function create() {
 	git remote add origin git@github.com:ZekoSNB/$1.git
 	git push -u origin main
 	echo "your repository is done"
+	code .	
 }
 
 create isgoingtowork
