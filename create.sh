@@ -1,3 +1,8 @@
 #!/bin/bash
 
-flatpak run com.spotify.Client
+function create() {
+	mkdir /home/$USER/Documents/$1
+	cd /home/$USER/Documents/$1
+	touch README.md
+	code .
+}

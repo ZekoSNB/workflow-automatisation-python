@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-function create() {
+function creategit() {
 	mkdir /home/$USER/Documents/$1
 	python source/git_repository.py $1
 	echo "Done $1 folder in /home/$USER/Documents/$1"
@@ -17,6 +17,3 @@ function create() {
 	echo "your repository is done"
 	code .	
 }
-
-create isgoingtowork
-

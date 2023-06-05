@@ -9,4 +9,4 @@
    - [x] Add README.md file 
    - [x] Initialize the directory (git init)
    - [x] add remote and commit "first commit" and push
-   - [ ] Open Visual Studio Code 
+   - [x] Open Visual Studio Code 
