@@ -39,7 +39,10 @@ def web_run():
     #* After login is going to create a new repository 
     driver.get('https://github.com/new')
     driver.find_element(By.XPATH, '//*[@id="react-aria-2"]').send_keys(reponame)
+
+    #* Paused due to Github checking if the repo-name is available
     time.sleep(0.5)
+
     driver.find_element(By.XPATH, '/html/body/div[1]/div[6]/main/react-app/div/div/form/div[5]/button').click()
     driver.quit()
     
