@@ -3,4 +3,4 @@ install:
 
 	@cp create ~/bin/create
 	@cp creategit ~/bin/creategit
-	@cp source ~/bin/source
+	@cp -r  source ~/bin/source
